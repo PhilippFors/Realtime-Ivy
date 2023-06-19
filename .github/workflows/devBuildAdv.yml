@@ -1,0 +1,57 @@
+name: Development Build
+
+#on: push:
+#      branches: 
+#          - 'develop'
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  # When building with mono, you can build to any target platform with ubuntu as the build server.
+  # If IL2CPP is used, the build server needs to be the same as the target plattform. E.g targetPlatform: StandaloneWindows64, runs-on: windows-latest
+  buildMono:
+    #needs: testRunner # check game.ci for how to do testrunners
+    name: Build for ${{ matrix.targetPlatform }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        projectName:
+          - myProjectName
+        targetPlatform:
+          - StandaloneWindows64
+          - StandaloneLinux64
+
+    steps:
+      - name: Checkout Files
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Prepare Cache
+        uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-${{ matrix.projectName }}-${{ matrix.targetPlatform }}-${{ hashFiles(matrix.projectName) }}
+          restore-keys: |
+            Library-${{ matrix.projectName }}-${{ matrix.targetPlatform }}-
+            Library-${{ matrix.projectName }}-
+            Library-
+
+      - name: Build Game
+        uses: game-ci/unity-builder@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+          buildName: ${{ matrix.projectName }}
+          customParameters: '-Development' # Build is development build
+
+      - name: Upload Build
+        uses: actions/upload-artifact@v2
+        with:
+          name: Build-${{ matrix.targetPlatform }}
+          path: build/${{ matrix.targetPlatform }}
+          retention-days: 2
