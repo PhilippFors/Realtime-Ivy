@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b5ae18c4b24c4a9987950816d71a93, type: 3}
+  m_Name: StartGrowShaderAsyncAction
+  m_EditorClassIdentifier: 
+  runUntilDisable: 0
+  loopPause: 0.1
+  maxBuilds: 4
+  climbMaterial: {fileID: 2100000, guid: d834f005b02c5d94d9d3fdeb9c267c48, type: 2}
+  leafMaterial: {fileID: 2100000, guid: c634fa6aeb04ae44db9dbace0374a8ca, type: 2}

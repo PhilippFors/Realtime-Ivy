@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c50a5fd6a8413e9b0a2191359105c9, type: 3}
+  m_Name: PlayAudioAction
+  m_EditorClassIdentifier: 
+  volume: 0.5
+  maxDistance: 10
+  clip: {fileID: 8300000, guid: e2cefdc9a26b280489c6269c21cfded8, type: 3}
+  audioSourcePool: {fileID: 11400000, guid: a18a67a5070e47043b52f98e7e96c76a, type: 2}

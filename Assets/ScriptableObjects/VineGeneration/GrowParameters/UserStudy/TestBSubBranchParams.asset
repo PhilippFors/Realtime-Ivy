@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15dcff56f9714414a953e76f411c2e39, type: 3}
+  m_Name: TestBSubBranchParams
+  m_EditorClassIdentifier: 
+  stepSize: 0.075
+  maxBranchLength: 1.6
+  maxSubBranchDepth: 2
+  minDistanceToSurface: 0.012
+  maxDistanceToSurface: 0.012
+  branchProbability: 0.2
+  directionFrequency: 8
+  dirRandomWeight: 0.8
+  directionAmplitude: 20
+  grabProbabilityOnFall: 1
+  lightSensitive: 1
+  minLightIntensity: 0.7
+  meshParameters: {fileID: 11400000, guid: 370de7b03564ff74394fd17d671ce571, type: 2}
+  branchThickness: 0.015
+  climbable: 1
+  climbNodePrefab: {fileID: 7686201861034906959, guid: 77a56cf8756037c4b9e86a3dc8c47d6d,
+    type: 3}
+  maxClimbNodesInRadius: 0
+  climbNodeProbability: 0.25
+  minClimbPointDistance: 0.5
+  maxClimbPointDistance: 0.8
+  hatesCorruption: 1

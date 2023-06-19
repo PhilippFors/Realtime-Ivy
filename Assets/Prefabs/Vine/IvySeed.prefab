@@ -36,7 +36,7 @@ Transform:
   m_Children:
   - {fileID: 4104932905586986568}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3654397831047025583
 MonoBehaviour:
@@ -76,7 +76,7 @@ MonoBehaviour:
   ivyParams: {fileID: 11400000, guid: d2c7f7e85261f014cb765b18ef2e3a70, type: 2}
   directionCalculator: {fileID: 11400000, guid: 7401db103e422ef42a2b8d28e33a84a6,
     type: 2}
-  initBranchAction: {fileID: 11400000, guid: 5d232f25724334b408ac8aca29e31210, type: 2}
+  initBranchAction: {fileID: 11400000, guid: 6123c2cba22eaa745bcb4f854f3fdd48, type: 2}
   nodeSpawn: {fileID: 11400000, guid: fa5b496817c663d429494f3181623d73, type: 2}
   asyncActions:
   - {fileID: 11400000, guid: c64e840bc5db70b4db3e2eff52f100fb, type: 2}

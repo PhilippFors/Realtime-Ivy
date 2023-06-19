@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02609d176aa74332b176f0a44cc41877, type: 3}
+  m_Name: LSystemData
+  m_EditorClassIdentifier: 
+  root:
+  - {fileID: 11400000, guid: 823cdb76e5179b34fa60db9b3298e28b, type: 2}
+  result: []
+  ruleConfig: {fileID: 11400000, guid: 903c448a054b9d14590be38a974d4dd5, type: 2}
+  ivyParams: {fileID: 11400000, guid: 95e77f21be94c9c42b31050443c972d4, type: 2}
+  maxIterationDepth: 3
+  lastInterpreted: 0
+  finished: 0

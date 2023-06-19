@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ScriptableObjects/VineGeneration/Modules/AsyncActions/BranchRemoveAsyncAction.asset.meta
+guid: c64e840bc5db70b4db3e2eff52f100fb
+NativeFormatImporter:
+========
+guid: f7d780be573364249be32883e36ea270
+PrefabImporter:
+>>>>>>>> main:Assets/Prefabs/VRPrefabs/RespawnCollider.prefab.meta
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

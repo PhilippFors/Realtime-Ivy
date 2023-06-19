@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3373d4037d1c4ce4b0b3abce318ec4fe, type: 3}
+  m_Name: Main Spawn Leave Action
+  m_EditorClassIdentifier: 
+  useVertLimit: 1
+  minLeaves: 2
+  maxLeaves: 3
+  leaveSize: 0.07
+  leaveAngle: {x: 35, y: 40}
+  leafPool: {fileID: 11400000, guid: ad7754e54a7332c418ebd97beb9bd142, type: 2}
+  meshRendererObjectPool: {fileID: 11400000, guid: b99026d6e2276c2489ad14f080caecb3,
+    type: 2}
