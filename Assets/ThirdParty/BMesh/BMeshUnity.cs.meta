@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ThirdParty/BMesh/BMeshUnity.cs.meta
+guid: b35b999cf8c5d69449d2f6d0f8cadcdc
+========
+guid: f4780216a81e2f748af72bdf1a23274e
+>>>>>>>> main:Assets/Scripts/SignalFlowerSunLight.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

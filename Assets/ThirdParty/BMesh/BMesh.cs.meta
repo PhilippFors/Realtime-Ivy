@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ThirdParty/BMesh/BMesh.cs.meta
+guid: 3a18c2484a0da31439794f1ca988c34b
+========
+guid: bf930c56c10027246b2518d323eb278e
+>>>>>>>> main:Assets/Scripts/DissolveController.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

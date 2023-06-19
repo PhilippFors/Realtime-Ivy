@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/KDTree/KnnContainer.cs.meta
+guid: 72edb240bde23b848be80e8e224efb43
+========
+guid: e73b6b5a4caa2d54e99047e5b0fdfde2
+>>>>>>>> main:Assets/Plugins/KDTree/KDNode.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

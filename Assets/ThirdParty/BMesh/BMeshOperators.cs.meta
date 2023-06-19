@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ThirdParty/BMesh/BMeshOperators.cs.meta
+guid: 87816fb8cacd60d4db8c4d43a3263de7
+========
+guid: 2c8d20f732680fa4cb8ef354503978ef
+>>>>>>>> main:Assets/Scripts/ShatterObject.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

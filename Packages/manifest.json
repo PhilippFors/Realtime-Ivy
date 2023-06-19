@@ -2,6 +2,7 @@
   "dependencies": {
     "com.philfors.usefulcode": "https://github.com/PhilippFors/useful-code.git?path=Assets/UsefulCode#2c299e87c48ed9b24bb70f68a4c2ddf63fee343c",
     "com.unity.ai.navigation": "1.1.4",
+    "com.unity.collections": "2.1.4",
     "com.unity.ide.rider": "3.0.24",
     "com.unity.ide.visualstudio": "2.0.18",
     "com.unity.ide.vscode": "1.2.5",

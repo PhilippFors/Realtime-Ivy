@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/KDTree/KDNode.cs.meta
+guid: e73b6b5a4caa2d54e99047e5b0fdfde2
+========
+guid: ae7b2b2332e44a246b94e3f58d712518
+>>>>>>>> main:Assets/Plugins/KDTree/KDBounds.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
