@@ -80,18 +80,13 @@ MonoBehaviour:
   nodeSpawn: {fileID: 11400000, guid: fa5b496817c663d429494f3181623d73, type: 2}
   asyncActions:
   - {fileID: 11400000, guid: c64e840bc5db70b4db3e2eff52f100fb, type: 2}
-  growConstraints:
-  - {fileID: 11400000, guid: 0d3fdcc5427e1114fa408ad3e196498a, type: 2}
+  growConstraints: []
   growHeuristics:
-  - {fileID: 11400000, guid: 25d95578a4bda1448b03ff0f36542684, type: 2}
   - {fileID: 11400000, guid: 2e81c594c5b212f44901018e800e2fb4, type: 2}
   - {fileID: 11400000, guid: 1cee33d31fd54344cad61cd39ae78abb, type: 2}
   onNodeSpawnAction:
   - {fileID: 11400000, guid: 46839bc6bf93ffc40b05fd355703a681, type: 2}
-  - {fileID: 11400000, guid: 963c093a424a2e748ad74e7aa60f4c6e, type: 2}
   - {fileID: 11400000, guid: b7de32cb9cd7ab84eb2b2017fb1f3674, type: 2}
-  - {fileID: 11400000, guid: 3a55722aaae0032489c2d442c65e39e6, type: 2}
-  - {fileID: 11400000, guid: a24b81255186d0346b00f581b5768ba7, type: 2}
 --- !u!114 &7256156814997297911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,16 +114,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 49eea7f7b0747cc4d97ce446551266b9, type: 2}
   - {fileID: 11400000, guid: d2cd50dc4d3c65b44811af4285bbbef1, type: 2}
   - {fileID: 11400000, guid: fea32a367484cef42ad31952523c657f, type: 2}
-  - {fileID: 11400000, guid: 6e7774e919c67544ebd7859de3e2f85b, type: 2}
   growConstraints:
-  - {fileID: 11400000, guid: 9ed084562173f584396c0a65ac2a0d75, type: 2}
   - {fileID: 11400000, guid: 3f9373e000c1af046a1243f26f91370f, type: 2}
   - {fileID: 11400000, guid: ff032252c28119a41984072e1daf6b50, type: 2}
   growHeuristics:
   - {fileID: 11400000, guid: cad8f88f382f162448ea76efa1c17972, type: 2}
   onNodeSpawnAction:
   - {fileID: 11400000, guid: dc964474a69726c4e9516f7d92e71ff5, type: 2}
-  - {fileID: 11400000, guid: 8483e9b7c652b4645aa91d36d30fa66c, type: 2}
   - {fileID: 11400000, guid: e39cc52038a352048bc252f64bd941d2, type: 2}
 --- !u!114 &6227564162607870983
 MonoBehaviour:
@@ -145,9 +137,9 @@ MonoBehaviour:
   seedActive: 0
   hitMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
   currentSurfaceNormal: {x: 0, y: 0, z: 0}
-  canPlaceSeed: 0
+  canPlaceSeed: 1
 --- !u!135 &9189387872140059284
 SphereCollider:
   m_ObjectHideFlags: 0

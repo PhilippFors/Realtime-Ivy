@@ -17,5 +17,5 @@ MonoBehaviour:
   sharedBranchMaterial: {fileID: 2100000, guid: 68e87825324ef0a4db881e43390d7ec7,
     type: 2}
   sharedLeafMaterial: {fileID: 2100000, guid: c634fa6aeb04ae44db9dbace0374a8ca, type: 2}
-  sharedClimbNodeMaterial: {fileID: 2100000, guid: d834f005b02c5d94d9d3fdeb9c267c48,
+  sharedClimbNodeMaterial: {fileID: 2100000, guid: d6146257dc6b4de4993f5f62c01b1ad2,
     type: 2}

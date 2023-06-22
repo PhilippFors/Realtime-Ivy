@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/KDTree/KDBounds.cs.meta
+guid: 856178a51cd820f48a715f8359cedb5c
+========
+guid: d4c3e407696aac94a8a6afbe921101a8
+>>>>>>>> main:Assets/Art/Shader/PlantGrowth/PlantGrowth.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -18,9 +18,9 @@ MonoBehaviour:
   minDistanceToSurface: 0.012
   maxDistanceToSurface: 0.012
   branchProbability: 0.3
-  directionFrequency: 4
+  directionFrequency: 2
   dirRandomWeight: 0.7
-  directionAmplitude: 8
+  directionAmplitude: 15
   grabProbabilityOnFall: 1
   lightSensitive: 1
   minLightIntensity: 0.7
